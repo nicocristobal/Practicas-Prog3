@@ -1,0 +1,5 @@
+package EmpresaAgroAlimentaria;
+
+public class ProductoRefrigerado extends Producto{
+
+}

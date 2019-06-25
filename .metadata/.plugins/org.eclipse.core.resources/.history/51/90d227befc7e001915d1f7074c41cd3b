@@ -1,0 +1,20 @@
+package Ejercicio;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Colegio {
+	
+	Map<K, V> alumno=new HashMap();
+	
+	public void addAlumno(String nac) {
+		if(alumno.containsKey(nac)) {
+			Integer i =alumno.get(nac);
+			alumno.remove(nac);
+			alumno.
+			
+					
+		}
+	}
+	
+}

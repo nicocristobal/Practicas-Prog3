@@ -1,0 +1,23 @@
+package clases;
+
+public class Bebida extends Producto{
+	private String tipoDebebida;
+	private String marca;
+	
+	
+	public String getTipoDebebida() {
+		return tipoDebebida;
+	}
+	public void setTipoDebebida(String tipoDebebida) {
+		this.tipoDebebida = tipoDebebida;
+	}
+	public String getMarca() {
+		return marca;
+	}
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
+	
+	
+
+}

@@ -1,0 +1,20 @@
+package app1;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Autor joshua=new Autor("Joshua", "Bloch", "joshua@emailcom", "M");
+		System.out.println(joshua.imprimir());
+		
+	//	Libro EffectiveJava = new Libro ("EffectiveJava",450,150,"JoshuaBloch");
+	//	System.out.println(EffectiveJava.imprimir());
+
+
+		
+	//	System.out.println(EffectiveJava.imprimirMensaje());
+		
+	}
+
+}

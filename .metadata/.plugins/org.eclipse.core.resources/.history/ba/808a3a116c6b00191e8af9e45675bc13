@@ -1,0 +1,82 @@
+package Coralon;
+
+import java.util.ArrayList;
+
+public class Producto {
+	private String titulo;
+	boolean entregado=false;
+	private String genero;
+	private int id;
+	private int stock;
+	private ArrayList<String>RegistroDeAlquiles;
+	
+	public void agregarRegistroPelicula(Cliente c) {
+		String e="El cliente= "+c.getId()+c.getNombre()+c.getApellido();
+		RegistroDeAlquiles.add(e);
+	}
+	public void agregarRegistroJuegos(Cliente c) {
+		String e="El cliente= "+c.getId()+c.getNombre()+c.getApellido();
+		RegistroDeAlquiles.add(e);
+	}
+	public void listasElemento() {
+		for(String r:RegistroDeAlquiles) System.out.println(r);
+	}
+		
+	public String imprimirProducto() {
+		return "Producto [titulo=" + getTitulo() + ", entregado=" + entregado + ", genero=" + getGenero() + ", id=" + getId()
+				+ ", stock=" + getStock() + "]";
+	}
+	public void entregar(){
+		this.entregado=true;
+		setStock(stock-1);
+	}
+	public void devolver() {
+		this.entregado=false;
+		setStock(stock-1);
+	}
+	public boolean idEntregado() {
+		return entregado;
+	}
+	
+	public Producto(String titulo, boolean entregado, String genero, int id, int stock,
+			ArrayList<String> registroDeAlquiles) {
+		super();
+		setTitulo(titulo);
+		entregado = false;
+		setGenero(genero);
+		setId(id);
+		setStock(stock);
+		RegistroDeAlquiles = registroDeAlquiles;
+	}
+	public String getTitulo() {
+		return titulo;
+	}
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+	public String getGenero() {
+		return genero;
+	}
+	public void setGenero(String genero) {
+		this.genero = genero;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getStock() {
+		return stock;
+	}
+	public void setStock(int stock) {
+		this.stock = stock;
+	}
+	public ArrayList<String> getRegistroDeAlquiles() {
+		return RegistroDeAlquiles;
+	}
+	public void setRegistroDeAlquiles(ArrayList<String> registroDeAlquiles) {
+		RegistroDeAlquiles = registroDeAlquiles;
+	}
+	
+}

@@ -1,0 +1,36 @@
+package Coralon;
+
+import java.util.ArrayList;
+
+public class Pelicula extends Producto {
+	private int Duracion;
+	private String Creador;
+	
+	
+	
+	@Override
+	public String toString() {
+		return "Pelicula [Duracion=" + Duracion + ", Creador=" + Creador + "]"+super.imprimirProducto();
+	}
+	public Pelicula(String tiutlo, boolean entregado, String genero, int stock, ArrayList<String> registroDeAlquiles,
+			int duracion, String creador) {
+		super(tiutlo, entregado, genero, stock, registroDeAlquiles);
+		setCreador(creador);
+		setCreador(creador);
+	}
+	public int getDuracion() {
+		return Duracion;
+	}
+	public void setDuracion(int duracion) {
+		Duracion = duracion;
+	}
+	public String getCreador() {
+		return Creador;
+	}
+	public void setCreador(String creador) {
+		Creador = creador;
+	}
+	
+	
+
+}

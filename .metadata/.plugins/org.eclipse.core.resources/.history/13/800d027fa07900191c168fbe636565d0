@@ -1,0 +1,16 @@
+package Ejercicio2;
+
+import java.util.ArrayList;
+
+
+public class Salarios {
+
+	private ArrayList<Empleado>empleado;
+
+	public Salarios() {
+		empleado=new ArrayList<Empleado>();
+	}
+	
+	
+	
+}

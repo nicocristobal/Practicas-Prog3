@@ -1,0 +1,13 @@
+package Ejercicio2;
+
+public class SuperHotel extends Hotel {
+	public void reservar() {
+		reservas++;
+	}
+	public void reservar(int size) {
+		reservar();
+		super.reservar();
+		reservas+=size;
+	}
+
+}

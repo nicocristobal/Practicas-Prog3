@@ -1,0 +1,23 @@
+package app;
+import javax.swing.JOptionPane;;
+
+// Calcular si un número es par o no 
+
+public class Ejercicio02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String num=JOptionPane.showInputDialog(null,"Ingrese el numero:");
+		int n = Integer.parseInt(num);
+		
+		if(n %2 == 0) {
+			System.out.println("El numero ingresado es par");
+		}
+		else {
+			System.out.println("El numero ingresado es impar");
+		}
+		
+	}
+
+}

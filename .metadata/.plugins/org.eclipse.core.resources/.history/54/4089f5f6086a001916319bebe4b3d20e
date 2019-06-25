@@ -1,0 +1,37 @@
+package Coralon;
+
+import java.util.ArrayList;
+
+public class Juego extends Producto {
+	private String Compania;
+	private int HorasEstimadas;
+	
+	
+	
+	@Override
+	public String toString() {
+		return "Juego [Compania=" + Compania + ", HorasEstimadas=" + HorasEstimadas + "]"+super.imprimirProducto();
+	}
+	public Juego(String tiutlo, boolean entregado, String genero, int stock, ArrayList<String> registroDeAlquiles,
+			String compania, int horasEstimadas) {
+		super(tiutlo, entregado, genero, stock, registroDeAlquiles);
+		setCompania(compania);
+		setHorasEstimadas(horasEstimadas);
+	}
+	public String getCompania() {
+		return Compania;
+	}
+	public void setCompania(String compania) {
+		Compania = compania;
+	}
+	public int getHorasEstimadas() {
+		return HorasEstimadas;
+	}
+	public void setHorasEstimadas(int horasEstimadas) {
+		HorasEstimadas = horasEstimadas;
+	}
+	
+	
+	
+
+}

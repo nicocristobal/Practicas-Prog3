@@ -1,0 +1,34 @@
+package app;
+
+import java.util.Scanner;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		int calif[]=new int[6];
+		int suma=0;
+		float promedio;
+		
+		System.out.println("calificaiones de primer semestre\n");
+		System.out.println("Calificacion 1 \n");
+		calif[0]=s.nextInt();
+		System.out.println("Calificacion 2 \n");
+		calif[1]=s.nextInt();
+		System.out.println("Calificacion 3 \n");
+		calif[2]=s.nextInt();
+		System.out.println("Calificacion 4 \n");
+		calif[3]=s.nextInt();
+		System.out.println("Calificacion 5 \n");
+		calif[4]=s.nextInt();
+		System.out.println("Calificacion 6 \n");
+		calif[5]=s.nextInt();
+		
+		for(int i=0; i<calif.length; i++) {
+			suma+=calif[i];
+		}
+		promedio=(suma/calif.length);
+		System.out.println("El promedio es \n");
+	}
+
+}

@@ -1,0 +1,70 @@
+package VideoClub;
+
+public abstract class Producto {
+	
+	private String titulo;
+	boolean entregado;
+	private String genero;
+	private int id;
+	private int stock;
+		
+	// agregar los metodos alquilar y devolver
+	
+	public String imprimirProducto() {
+		return "Producto [titulo=" + getTitulo() + ", entregado=" + isEntregado() +
+				", genero=" + getGenero() + ", id=" + getId()+ ", stock=" + getStock() + "]";
+	}
+
+	public void entregar() {
+		this.entregado=true;
+		setStock(stock-1);
+	}
+	
+	public void devolver() {
+		this.entregado=false;
+		setStock(stock+1);
+	}
+	
+	public boolean isEntregado() {
+		return entregado;
+	}
+	
+	abstract public int comparar (Producto a);
+	
+	public Producto(String titulo, boolean entregado, String genero, int id, int stock) {
+		super();
+		this.titulo = titulo;
+		this.entregado = false;
+		this.genero = genero;
+		this.id = id;
+		this.stock = stock;
+	}
+	
+	public String getTitulo() {
+		return titulo;
+	}
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+	public String getGenero() {
+		return genero;
+	}
+	public void setGenero(String genero) {
+		this.genero = genero;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getStock() {
+		return stock;
+	}
+	public void setStock(int stock) {
+		this.stock = stock;
+	}
+	
+	
+
+}

@@ -1,0 +1,10 @@
+package Ejercicio2;
+
+public class Hotel {
+	public int reservas;
+	
+	public void reservar() {
+		reservas++;
+	}
+
+}

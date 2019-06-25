@@ -1,0 +1,15 @@
+1553903957631	Delete element
+1553905406253	Convert local variable 'numero' to field
+1553906217117	Convert local variable 'a' to field
+1553906240686	Convert local variable 'b' to field
+1553906255371	Convert local variable 'c' to field
+1553906265412	Convert local variable 'd' to field
+1554042569085	Delete element
+1554042573161	Delete element
+1554042978214	Encapsulate field 'nombre'
+1554042985916	Encapsulate field 'edad'
+1554042994255	Encapsulate field 'saldo'
+1554043481234	Convert local variable 'scanner' to field
+1554043485501	Convert local variable 'scanner2' to field
+1554047205952	Convert local variable 'usuario1' to field
+1554047211960	Convert local variable 'c' to field

@@ -1,0 +1,18 @@
+package clases;
+
+public class Mesa {
+	private int nroDeMesa;
+	boolean ocupadaONo;
+	
+	
+	public int getNroDeMesa() {
+		return nroDeMesa;
+	}
+	public void setNroDeMesa(int nroDeMesa) {
+		this.nroDeMesa = nroDeMesa;
+	}
+	
+	
+	
+
+}

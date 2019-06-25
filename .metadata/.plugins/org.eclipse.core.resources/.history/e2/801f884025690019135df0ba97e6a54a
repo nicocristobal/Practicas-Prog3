@@ -1,0 +1,6 @@
+package Coralon;
+
+public class Musica extends Producto {
+	
+
+}

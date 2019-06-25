@@ -1,0 +1,41 @@
+package Coralon;
+
+public class Copia {
+	
+	private String idPelicula;
+	private String titulo;
+	boolean entregado=false;
+	private int id;
+
+	public String impirmirCopia() {
+		return "Copia [idPelicula=" + idPelicula + ", titulo=" + titulo + ", entregado=" + entregado + ", id=" + id
+				+ "]";
+	}
+	public Copia(String idPelicula, String titulo, int id) {
+		super();
+		this.idPelicula = idPelicula;
+		this.titulo = titulo;
+		this.id = id;
+	}
+	public String getIdPelicula() {
+		return idPelicula;
+	}
+	public void setIdPelicula(String idPelicula) {
+		this.idPelicula = idPelicula;
+	}
+	public String getTitulo() {
+		return titulo;
+	}
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+	
+	
+}

@@ -1,0 +1,34 @@
+package app1;
+
+public class Libro {
+
+	private String titulo;
+	private int precio;
+	private int stock ;
+	private Autor autor;
+		
+	
+	
+
+	public Libro(String titulo, int precio, int stock, Autor autor) {
+		
+		setTitulo (titulo);
+		setPrecio (precio);
+		setStock(stock);
+		Sutor(autor);
+	}
+
+	public String imprimir() {
+		return "Libro [Titulo=" + titulo + ", Precio=" + precio + ", Stock=" + stock + "]";
+	}
+
+	
+
+	public String imprimirMensaje() {
+		return "Libro [El nombre=" + titulo + " de=" + autor.nombreApellido() + " se vende a=" + precio + "]";
+		//" El libro, {título} de {nombre del autor}. Se vende a {precio} pesos. "
+	}
+	
+	
+}
+

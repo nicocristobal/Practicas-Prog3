@@ -1,0 +1,22 @@
+package Coralon;
+
+import java.util.ArrayList;
+
+public class Multimedia {
+	
+	ArrayList<Copia>copia;
+
+	public Multimedia() {
+		copia=new ArrayList<Copia>();
+	}
+	public void agregarCopia(Copia c) {
+		copia.add(c);
+	}
+	
+	public void listarElemente() {
+		for(Copia c:copia)System.out.println(c.imprimirCopia());
+	}
+	
+	
+}
+

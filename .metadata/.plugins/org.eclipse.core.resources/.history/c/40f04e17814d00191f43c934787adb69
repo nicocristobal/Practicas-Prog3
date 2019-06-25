@@ -1,0 +1,12 @@
+package app;
+
+import java.util.Scanner;
+
+//Ejercicio nº1: Calcular el promedio de un arreglo de números enteros. 
+//Realizar variantes con arreglos ya inicializados e ingreso por teclado.
+
+
+public class Ejercicio1 {
+
+	public static void main 
+}

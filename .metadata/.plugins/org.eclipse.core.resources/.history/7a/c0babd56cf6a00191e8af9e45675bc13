@@ -1,0 +1,8 @@
+package Ejercicio;
+
+public class Hotel {
+	protected int reserva;
+	
+	public void reserva() {System.out.println(reserva++);}
+
+}

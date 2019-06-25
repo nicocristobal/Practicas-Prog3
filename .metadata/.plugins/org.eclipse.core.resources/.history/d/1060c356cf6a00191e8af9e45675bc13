@@ -1,0 +1,12 @@
+package Ejercicio;
+
+public class Main {
+
+	public static void main(String[] args) {
+		SuperHotel hotel=new SuperHotel();
+		hotel.reserva(2);
+		System.out.println(hotel.reserva);
+
+	}
+
+}

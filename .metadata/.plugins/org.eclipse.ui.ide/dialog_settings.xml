@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\nicol\eclipse-workspace\Practicaparcial2"/>
+			<item value="C:\Users\nicol\eclipse-workspace\Archivo_Libreta"/>
+			<item value="C:\Users\nicol\Downloads\Programacion-Laboratorio-3-UTN-MDP-master (1)\Programacion-Laboratorio-3-UTN-MDP-master\2019\Libreta"/>
+			<item value="D:\Programacion\GitHub\sistemaRestaurantZN_eclipse"/>
+			<item value="C:\Users\nicol\eclipse-workspace\SeleccionFutbol"/>
+			<item value="D:\Programacion\GitHub\Programacion-Laboratorio-3-UTN-MDP"/>
+			<item value="C:\Users\nicol\eclipse-workspace\Json"/>
+			<item value="C:\Users\nicol\eclipse-workspace\json"/>
+			<item value="C:\Users\nicol\eclipse-workspace"/>
+			<item value="C:\Users\nicol\eclipse-workspace\Parcial_1_COM1"/>
+			<item value="C:\Users\nicol\Downloads\proyectosJavaZM-master"/>
+			<item value="C:\Users\nicol\Downloads\proyectosJavaZM-master\proyectosJavaZM-master"/>
+			<item value="C:\Users\nicol\eclipse-workspace\Dome"/>
+			<item value="C:\Users\nicol\eclipse-workspace\EjemploDeClases"/>
+			<item value="C:\Users\nicol\eclipse-workspace\MaquinaDeBoletos"/>
+			<item value="C:\Users\nicol\Downloads\Programacion-Laboratorio-3-UTN-MDP-master\Programacion-Laboratorio-3-UTN-MDP-master\2019\Dome"/>
+			<item value="C:\Users\nicol\Downloads\Programacion-Laboratorio-3-UTN-MDP-master\Programacion-Laboratorio-3-UTN-MDP-master\2019\MaquinaDeBoletos"/>
+			<item value="D:\Programacion\Practicas P3\Hola2"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

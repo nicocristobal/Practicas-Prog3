@@ -1,0 +1,22 @@
+package VideoClub;
+
+import java.util.ArrayList;
+
+
+public class VideoClub {
+	
+	ArrayList<Producto>productos;
+
+	ArrayList<Juegos>juego;
+	ArrayList<Peliculas>pelicula;
+	
+	public VideoClub() 
+	{
+		productos = new ArrayList<>();
+		//peliculas = new ArrayList<>();
+		//musicas = new ArrayList<>();
+	}
+	
+	
+	
+}

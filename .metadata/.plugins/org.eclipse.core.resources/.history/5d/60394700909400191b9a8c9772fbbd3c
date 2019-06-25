@@ -1,0 +1,8 @@
+package SeleccionDeFutbol_p2;
+
+public interface Miembros {
+	
+	String viajar();
+	String concentrar();
+
+}
